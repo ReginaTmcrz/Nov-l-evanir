@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1267.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CataloguePage">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1525.0" prefWidth="1247.0">
+         <children>
+            <Label layoutX="409.0" layoutY="303.0" prefHeight="88.0" prefWidth="504.0" text="WELCOME TO CATALOGUE">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="1500.0" fitWidth="1267.0">
+               <image>
+                  <Image url="@../images/CATALOG_2.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="mycart" layoutX="1170.0" layoutY="25.0" maxHeight="43.0" maxWidth="47.0" mnemonicParsing="false" onAction="#gotocart" prefHeight="43.0" prefWidth="47.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="47.0" layoutX="30.0">
+                     <image>
+                        <Image url="@../images/CART.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="backBtn" layoutX="30.0" layoutY="30.0" mnemonicParsing="false" onAction="#backBtnClick" prefHeight="59.0" prefWidth="58.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="60.0" fitWidth="60.0">
+                     <image>
+                        <Image url="@../images/BACK.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="favoritesBtn" layoutX="1090.0" layoutY="25.0" mnemonicParsing="false" onAction="#gotoFavorites" prefHeight="51.0" prefWidth="55.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="47.0">
+                     <image>
+                        <Image url="@../images/FAVORITE.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="likeBtn1" layoutX="120.0" layoutY="213.0" mnemonicParsing="false" onAction="#like" prefHeight="33.0" prefWidth="32.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="28.0">
+                     <image>
+                        <Image url="@../images/LIKE.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="view1" layoutX="135.0" layoutY="335.0" mnemonicParsing="false" onAction="#viewabyssalPage" prefHeight="24.0" prefWidth="63.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="64.0">
+                     <image>
+                        <Image url="@../images/VIEW.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="button1" layoutX="130.0" layoutY="360.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="105.0">
+                     <image>
+                        <Image url="@../images/ADDTOCART.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="likeBtn2" layoutX="120.0" layoutY="435.0" mnemonicParsing="false" onAction="#like" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="28.0">
+                     <image>
+                        <Image url="@../images/LIKE.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="view2" layoutX="125.0" layoutY="657.0" mnemonicParsing="false" onAction="#viewLuminaPage" prefHeight="24.0" prefWidth="86.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="64.0">
+                     <image>
+                        <Image url="@../images/VIEW.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="button2" layoutX="130.0" layoutY="680.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="105.0">
+                     <image>
+                        <Image url="@../images/ADDTOCART.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="likeBtn3" layoutX="435.0" layoutY="435.0" mnemonicParsing="false" onAction="#like" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="28.0">
+                     <image>
+                        <Image url="@../images/LIKE.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="button3" layoutX="445.0" layoutY="680.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="105.0">
+                     <image>
+                        <Image url="@../images/ADDTOCART.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="view3" layoutX="445.0" layoutY="657.0" mnemonicParsing="false" onAction="#viewSeraphinaPage" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="64.0">
+                     <image>
+                        <Image url="@../images/VIEW.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="likeBtn4" layoutX="750.0" layoutY="213.0" mnemonicParsing="false" onAction="#like" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="28.0">
+                     <image>
+                        <Image url="@../images/LIKE.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="view4" layoutX="755.0" layoutY="657.0" mnemonicParsing="false" onAction="#viewCelestiaPage" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="64.0">
+                     <image>
+                        <Image url="@../images/VIEW.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="button4" layoutX="755.0" layoutY="680.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="105.0">
+                     <image>
+                        <Image url="@../images/ADDTOCART.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="name1" layoutX="147.0" layoutY="247.0" prefHeight="42.0" prefWidth="179.0" text="ABYSSAL">
+               <font>
+                  <Font name="Verdana Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="price1" layoutX="164.0" layoutY="273.0" prefHeight="42.0" prefWidth="179.0" text="500000">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="name2" layoutX="130.0" layoutY="463.0" prefHeight="42.0" prefWidth="179.0" text="LUMINA">
+               <font>
+                  <Font name="Verdana Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="price2" layoutX="145.0" layoutY="482.0" prefHeight="42.0" prefWidth="179.0" text="500000">
+               <font>
+                  <Font name="Verdana" size="11.0" />
+               </font>
+            </Label>
+            <Label fx:id="price71" layoutX="147.0" layoutY="273.0" prefHeight="42.0" prefWidth="13.0" text="\$">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="133.0" layoutY="481.0" prefHeight="42.0" prefWidth="13.0" text="\$">
+               <font>
+                  <Font name="Verdana" size="11.0" />
+               </font>
+            </Label>
+            <Label fx:id="name3" layoutX="445.0" layoutY="463.0" prefHeight="42.0" prefWidth="179.0" text="SERAPHINA">
+               <font>
+                  <Font name="Verdana Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="449.0" layoutY="481.0" prefHeight="42.0" prefWidth="13.0" text="\$">
+               <font>
+                  <Font name="Verdana" size="11.0" />
+               </font>
+            </Label>
+            <Label fx:id="price3" layoutX="460.0" layoutY="481.0" prefHeight="42.0" prefWidth="179.0" text="500000">
+               <font>
+                  <Font name="Verdana" size="11.0" />
+               </font>
+            </Label>
+            <Label fx:id="name4" layoutX="764.0" layoutY="247.0" prefHeight="42.0" prefWidth="179.0" text="CELESTIA">
+               <font>
+                  <Font name="Verdana Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="price711" layoutX="770.0" layoutY="273.0" prefHeight="42.0" prefWidth="13.0" text="\$">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="price4" layoutX="789.0" layoutY="273.0" prefHeight="42.0" prefWidth="179.0" text="500000">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="likeBtn5" layoutX="35.0" layoutY="790.0" mnemonicParsing="false" onAction="#like" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="28.0">
+                     <image>
+                        <Image url="@../images/LIKE.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="view5" layoutX="380.0" layoutY="995.0" mnemonicParsing="false" onAction="#viewNovastrikePage" prefHeight="23.0" prefWidth="135.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="101.0">
+                     <image>
+                        <Image url="@../images/VIEW_2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="button5" layoutX="385.0" layoutY="1030.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="39.0" fitWidth="143.0">
+                     <image>
+                        <Image url="@../images/ADDTOCART.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="name5" layoutX="41.0" layoutY="822.0" prefHeight="42.0" prefWidth="179.0" text="NOVASTRIKE" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="43.0" layoutY="846.0" prefHeight="42.0" prefWidth="13.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="price5" layoutX="59.0" layoutY="846.0" prefHeight="42.0" prefWidth="179.0" text="1000000" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="likeBtn6" layoutX="130.0" layoutY="1147.0" mnemonicParsing="false" onAction="#like" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="28.0">
+                     <image>
+                        <Image url="@../images/LIKE.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="view6" layoutX="110.0" layoutY="1411.0" mnemonicParsing="false" onAction="#viewQuantumPage" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="91.0">
+                     <image>
+                        <Image url="@../images/VIEW.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="button6" layoutX="280.0" layoutY="1400.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="39.0" fitWidth="140.0">
+                     <image>
+                        <Image url="@../images/ADDTOCART_2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="name6" layoutX="133.0" layoutY="1348.0" prefHeight="42.0" prefWidth="179.0" text="QUANTUM" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="300.0" layoutY="1348.0" prefHeight="42.0" prefWidth="13.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="price6" layoutX="320.0" layoutY="1348.0" prefHeight="42.0" prefWidth="179.0" text="1000000.00" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="name7" layoutX="496.0" layoutY="1348.0" prefHeight="42.0" prefWidth="179.0" text="INTELLIHEAR" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="price7" layoutX="682.0" layoutY="1348.0" prefHeight="42.0" prefWidth="179.0" text="1000000.00" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="668.0" layoutY="1348.0" prefHeight="42.0" prefWidth="13.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="likeBtn7" layoutX="490.0" layoutY="1147.0" mnemonicParsing="false" onAction="#like" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="28.0">
+                     <image>
+                        <Image url="@../images/LIKE.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="view7" layoutX="480.0" layoutY="1411.0" mnemonicParsing="false" onAction="#viewIntellihearPage" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="91.0">
+                     <image>
+                        <Image url="@../images/VIEW.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="button7" layoutX="640.0" layoutY="1400.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="39.0" fitWidth="140.0">
+                     <image>
+                        <Image url="@../images/ADDTOCART_2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label fx:id="name8" layoutX="856.0" layoutY="1348.0" prefHeight="42.0" prefWidth="179.0" text="OCTAVISION" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="price8" layoutX="1044.0" layoutY="1348.0" prefHeight="42.0" prefWidth="179.0" text="1000000.00" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1030.0" layoutY="1348.0" prefHeight="42.0" prefWidth="13.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="view8" layoutX="860.0" layoutY="1411.0" mnemonicParsing="false" onAction="#viewOctavisionPage" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="91.0">
+                     <image>
+                        <Image url="@../images/VIEW.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="button8" layoutX="1000.0" layoutY="1400.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="39.0" fitWidth="140.0">
+                     <image>
+                        <Image url="@../images/ADDTOCART_2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="likeBtn8" layoutX="850.0" layoutY="1147.0" mnemonicParsing="false" onAction="#like" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="28.0">
+                     <image>
+                        <Image url="@../images/LIKE.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

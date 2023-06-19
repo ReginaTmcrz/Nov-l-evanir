@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1267.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SettingsPage">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1267.0">
+         <image>
+            <Image url="@../images/settingsBG.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="300.0" layoutY="448.0" mnemonicParsing="false" onAction="#privacypolicyBtnClick" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="143.0">
+               <image>
+                  <Image url="@../images/PRIVACY.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="30.0" layoutY="30.0" mnemonicParsing="false" onAction="#backBtnClick" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="60.0">
+               <image>
+                  <Image url="@../images/Back_2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="556.0" layoutY="448.0" mnemonicParsing="false" onAction="#aboutLinkClick" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="143.0">
+               <image>
+                  <Image url="@../images/ABOUT1.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="820.0" layoutY="448.0" mnemonicParsing="false" onAction="#helpcentreBtnClick" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="143.0">
+               <image>
+                  <Image url="@../images/HELPCENTER.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>

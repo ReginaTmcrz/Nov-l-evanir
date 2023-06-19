@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1261.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CheckoutPage">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1600.0" prefWidth="1245.0">
+         <children>
+            <ImageView fitHeight="1600.0" fitWidth="1261.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/CheckOut.png" />
+               </image>
+            </ImageView>
+            <VBox fx:id="myvbox" layoutX="217.0" layoutY="333.0" prefHeight="1040.0" prefWidth="831.0">
+               <children>
+                  <Pane fx:id="pane5" prefHeight="120.0" prefWidth="831.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="831.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/ProductBG.png" />
+                           </image>
+                        </ImageView>
+                        <ChoiceBox fx:id="choicebox5" layoutX="375.0" layoutY="45.0" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: white; -fx-border-color: pink; -fx-border-width: 3;" />
+                        <ImageView fx:id="img5" fitHeight="110.0" fitWidth="200.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Novastrike.jpeg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="name5" layoutX="122.0" layoutY="45.0" text="NOVASTRIKE" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="122.0" layoutY="64.0" opacity="0.75" text="WEAPON" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price5" layoutX="727.0" layoutY="50.0" text="100.8333" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="680.0" layoutY="50.0" text="\$" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane7" layoutY="10.0" prefHeight="120.0" prefWidth="831.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="831.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/ProductBG.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="img7" fitHeight="120.0" fitWidth="110.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Intellihear.jpeg" />
+                           </image>
+                        </ImageView>
+                        <ChoiceBox fx:id="choicebox7" layoutX="375.0" layoutY="45.0" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: white; -fx-border-color: pink; -fx-border-width: 3;" />
+                        <Label fx:id="name7" layoutX="122.0" layoutY="45.0" text="INTELLIHEAR" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="122.0" layoutY="64.0" opacity="0.75" text="WEAPON" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price7" layoutX="727.0" layoutY="50.0" text="1000000" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="680.0" layoutY="50.0" text="\$" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane6" prefHeight="120.0" prefWidth="831.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="831.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/ProductBG.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="img6" fitHeight="120.0" fitWidth="110.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Quantum.jpeg" />
+                           </image>
+                        </ImageView>
+                        <ChoiceBox fx:id="choicebox6" layoutX="375.0" layoutY="45.0" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: white; -fx-border-color: pink; -fx-border-width: 3;" />
+                        <Label fx:id="name6" layoutX="122.0" layoutY="45.0" text="QUANTUM" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="122.0" layoutY="64.0" opacity="0.75" text="WEAPON" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price6" layoutX="727.0" layoutY="50.0" text="1000000" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="680.0" layoutY="50.0" text="\$" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane8" prefHeight="120.0" prefWidth="831.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="831.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/ProductBG.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="img8" fitHeight="110.0" fitWidth="200.0" layoutX="2.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Octavision.jpeg" />
+                           </image>
+                        </ImageView>
+                        <ChoiceBox fx:id="choicebox8" layoutX="375.0" layoutY="45.0" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: white; -fx-border-color: pink; -fx-border-width: 3;" />
+                        <Label fx:id="name8" layoutX="122.0" layoutY="45.0" text="OCTAVISION" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="123.0" layoutY="64.0" opacity="0.75" text="WEAPON" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price8" layoutX="727.0" layoutY="50.0" text="1000000" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="680.0" layoutY="50.0" text="\$" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane4" prefHeight="120.0" prefWidth="831.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="831.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/ProductBG.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="img4" fitHeight="110.0" fitWidth="200.0" layoutX="5.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Celestia.png" />
+                           </image>
+                        </ImageView>
+                        <ChoiceBox fx:id="choicebox4" layoutX="375.0" layoutY="45.0" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: white; -fx-border-color: pink; -fx-border-width: 3;" />
+                        <Label fx:id="name4" layoutX="122.0" layoutY="45.0" text="CELESTIA" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="122.0" layoutY="64.0" opacity="0.75" text="ACCESSORY" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price4" layoutX="727.0" layoutY="50.0" text="500,000" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="680.0" layoutY="50.0" text="\$" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane2" prefHeight="120.0" prefWidth="831.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="831.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/ProductBG.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="img2" fitHeight="110.0" fitWidth="200.0" layoutX="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Lumina.png" />
+                           </image>
+                        </ImageView>
+                        <ChoiceBox fx:id="choicebox2" layoutX="375.0" layoutY="45.0" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: white; -fx-border-color: pink; -fx-border-width: 3;" />
+                        <Label fx:id="name2" layoutX="122.0" layoutY="45.0" text="LUMINA" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="122.0" layoutY="64.0" opacity="0.75" text="ACCESSORY" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price2" layoutX="727.0" layoutY="50.0" text="\$500,000" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="680.0" layoutY="50.0" text="\$" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane1" prefHeight="120.0" prefWidth="831.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="831.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/ProductBG.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="img1" fitHeight="110.0" fitWidth="200.0" layoutX="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Abyssal.png" />
+                           </image>
+                        </ImageView>
+                        <ChoiceBox fx:id="choicebox1" layoutX="375.0" layoutY="45.0" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: white; -fx-border-color: pink; -fx-border-width: 3;" />
+                        <Label fx:id="name1" layoutX="122.0" layoutY="45.0" text="ABYSSAL" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="122.0" layoutY="64.0" opacity="0.75" text="ACCESSORY" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price1" layoutX="727.0" layoutY="50.0" text="\$500,000" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="680.0" layoutY="50.0" text="\$" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Pane fx:id="pane3" prefHeight="120.0" prefWidth="831.0">
+                     <children>
+                        <ImageView fitHeight="120.0" fitWidth="831.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/ProductBG.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="img3" fitHeight="110.0" fitWidth="200.0" layoutX="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Seraphina.png" />
+                           </image>
+                        </ImageView>
+                        <ChoiceBox fx:id="choicebox3" layoutX="375.0" layoutY="45.0" prefHeight="25.0" prefWidth="86.0" style="-fx-background-color: white; -fx-border-color: pink; -fx-border-width: 3;" />
+                        <Label fx:id="name3" layoutX="122.0" layoutY="45.0" text="SERAPHINA" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="122.0" layoutY="64.0" opacity="0.75" text="ACCESSORY" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price3" layoutX="727.0" layoutY="50.0" text="\$500,000" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="680.0" layoutY="50.0" text="\$" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Pane>
+               </children>
+            </VBox>
+            <Label layoutX="217.0" layoutY="1450.0" text="TOTAL AMOUNT" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="total" layoutX="824.0" layoutY="1450.0" prefHeight="28.0" prefWidth="215.0" text="100000000000000" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="22.0" />
+               </font>
+            </Label>
+            <Button layoutX="1000.0" layoutY="69.0" mnemonicParsing="false" onAction="#checkout" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView>
+                     <image>
+                        <Image url="@../images/CHECKOUTBTN.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

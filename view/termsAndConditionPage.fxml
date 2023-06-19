@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1267.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TermsandConditionPage">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1267.0">
+         <image>
+            <Image url="@../images/TERMS.gif" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="agree" layoutX="82.0" layoutY="584.0" mnemonicParsing="false" onAction="#agreement" prefHeight="42.0" prefWidth="624.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </CheckBox>
+   </children>
+</Pane>

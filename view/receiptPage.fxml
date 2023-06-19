@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1261.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReceiptPage">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1267.0">
+         <image>
+            <Image url="@../images/RECEIPT.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#homeButtonClick" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0">
+               <image>
+                  <Image url="@../images/HOME.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="product1" layoutX="83.0" layoutY="415.0" prefHeight="17.0" prefWidth="109.0" text="-" />
+      <Label fx:id="product2" layoutX="83.0" layoutY="432.0" prefHeight="17.0" prefWidth="109.0" text="-" />
+      <Label fx:id="product3" layoutX="83.0" layoutY="449.0" prefHeight="17.0" prefWidth="109.0" text="-" />
+      <Label fx:id="product4" layoutX="83.0" layoutY="466.0" prefHeight="17.0" prefWidth="109.0" text="-" />
+      <Label fx:id="product5" layoutX="83.0" layoutY="483.0" prefHeight="17.0" prefWidth="109.0" text="-" />
+      <Label fx:id="product6" layoutX="83.0" layoutY="500.0" prefHeight="17.0" prefWidth="109.0" text="-" />
+      <Label fx:id="product7" layoutX="83.0" layoutY="517.0" prefHeight="17.0" prefWidth="109.0" text="-" />
+      <Label fx:id="product8" layoutX="83.0" layoutY="534.0" prefHeight="17.0" prefWidth="109.0" text="-" />
+      <Label fx:id="price1" layoutX="453.0" layoutY="415.0" prefHeight="17.0" prefWidth="159.0" text="\$" />
+      <Label fx:id="price2" layoutX="453.0" layoutY="432.0" prefHeight="17.0" prefWidth="159.0" text="\$" />
+      <Label fx:id="price3" layoutX="453.0" layoutY="449.0" prefHeight="17.0" prefWidth="159.0" text="\$" />
+      <Label fx:id="price4" layoutX="453.0" layoutY="466.0" prefHeight="17.0" prefWidth="159.0" text="\$" />
+      <Label fx:id="price5" layoutX="453.0" layoutY="483.0" prefHeight="17.0" prefWidth="159.0" text="\$" />
+      <Label fx:id="price6" layoutX="453.0" layoutY="500.0" prefHeight="17.0" prefWidth="159.0" text="\$" />
+      <Label fx:id="price7" layoutX="453.0" layoutY="517.0" prefHeight="17.0" prefWidth="159.0" text="\$" />
+      <Label fx:id="price8" layoutX="453.0" layoutY="534.0" prefHeight="17.0" prefWidth="159.0" text="\$" />
+      <Label fx:id="qty1" layoutX="796.0" layoutY="415.0" prefHeight="17.0" prefWidth="41.0" text="0.0" />
+      <Label fx:id="qty2" layoutX="796.0" layoutY="432.0" prefHeight="17.0" prefWidth="41.0" text="0.0" />
+      <Label fx:id="qty3" layoutX="796.0" layoutY="449.0" prefHeight="17.0" prefWidth="41.0" text="0.0" />
+      <Label fx:id="qty4" layoutX="796.0" layoutY="466.0" prefHeight="17.0" prefWidth="41.0" text="0.0" />
+      <Label fx:id="qty5" layoutX="796.0" layoutY="483.0" prefHeight="17.0" prefWidth="41.0" text="0.0" />
+      <Label fx:id="qty6" layoutX="796.0" layoutY="500.0" prefHeight="17.0" prefWidth="41.0" text="0.0" />
+      <Label fx:id="qty7" layoutX="796.0" layoutY="517.0" prefHeight="17.0" prefWidth="41.0" text="0.0" />
+      <Label fx:id="qty8" layoutX="796.0" layoutY="534.0" prefHeight="17.0" prefWidth="41.0" text="0.0" />
+      <Label fx:id="total" layoutX="1123.0" layoutY="614.0" prefHeight="17.0" prefWidth="76.0" text="10000000.70" textAlignment="RIGHT" />
+      <Label fx:id="amount1" layoutX="1114.0" layoutY="415.0" prefHeight="17.0" prefWidth="109.0" text="1000000.00" />
+      <Label fx:id="amount2" layoutX="1114.0" layoutY="432.0" prefHeight="17.0" prefWidth="109.0" text="0.0" />
+      <Label fx:id="amount3" layoutX="1114.0" layoutY="449.0" prefHeight="17.0" prefWidth="109.0" text="0.0" />
+      <Label fx:id="amount4" layoutX="1114.0" layoutY="466.0" prefHeight="17.0" prefWidth="109.0" text="0.0" />
+      <Label fx:id="amount5" layoutX="1114.0" layoutY="483.0" prefHeight="17.0" prefWidth="109.0" text="0.0" />
+      <Label fx:id="amount6" layoutX="1114.0" layoutY="500.0" prefHeight="17.0" prefWidth="109.0" text="0.0" />
+      <Label fx:id="amount7" layoutX="1114.0" layoutY="517.0" prefHeight="17.0" prefWidth="109.0" text="0.0" />
+      <Label fx:id="amount8" layoutX="1114.0" layoutY="534.0" prefHeight="17.0" prefWidth="109.0" text="0.0" />
+   </children>
+</Pane>
